@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+.h-screen-supp {
+    height: 100vh;
+}
+
+@supports (height: 100svh) {
+    .h-screen-supp {
+    height: 100svh;
+    }
+}
